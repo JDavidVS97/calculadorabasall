@@ -1,11 +1,8 @@
-h1 {
-    color: rgb(15, 15, 90);
-    text-align: center;
-  }
+
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
   body{
-      background: #f9faf6;
+      background:rgb(249, 231, 231);
       font-family: 'Montserrat', sans-serif;
       color: #0d0d0d;
   }
@@ -27,6 +24,7 @@ h1 {
   width: 50%;
   height: 100%;
   float: left;
+  color: #FF416C;
 }
 
 #detalles {
@@ -54,7 +52,7 @@ input {
 }
 
 button {
-  transform: translateY(15%);
+  transform:translateY(15%);
   font-size: 15px;
 	font-weight: bold;
 	padding: 12px 45px;
@@ -69,4 +67,19 @@ button {
 
 button:active {
 	transform: scale(0.95);
+}
+#error{
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.resultado{
+  color: rgb(216, 24, 63);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: none;
+  border: #F6F5F7;
+  box-shadow:#3E363F;
 }
